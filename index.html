@@ -6,11 +6,32 @@
 </head>
 <body>
     <h1>User-Generated Content Website</h1>
-    <div id="content-container"></div>
-    <form id="submission-form">
-        <input type="text" id="content-input" placeholder="Enter a link">
-        <button type="button" id="submit-button">Submit</button>
-    </form>
+    <div id="navigation">
+        <a href="#create-section">Create Media</a>
+        <a href="#photo-section">Photos</a>
+        <a href="#video-section">Videos</a>
+        <a href="#link-section">Links</a>
+    </div>
+    <div id="create-section">
+        <h2>Create Media</h2>
+        <form id="submission-form">
+            <input type="text" id="content-input" placeholder="Enter a link, image, or video">
+            <input type="text" id="caption-input" placeholder="Enter a caption">
+            <button type="button" id="submit-button">Submit</button>
+        </form>
+    </div>
+    <div id="photo-section">
+        <h2>Photos</h2>
+        <div id="photo-container"></div>
+    </div>
+    <div id="video-section">
+        <h2>Videos</h2>
+        <div id="video-container"></div>
+    </div>
+    <div id="link-section">
+        <h2>Links</h2>
+        <div id="link-container"></div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
