@@ -2,9 +2,23 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 h1 {
     text-align: center;
 }
-#content-container {
+
+#content-input, #caption-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#navigation {
     text-align: center;
+}
+
+#create-section, #photo-section, #video-section, #link-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
